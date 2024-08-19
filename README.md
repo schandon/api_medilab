@@ -47,3 +47,5 @@ Para inicializar utilizaremo o comando:
 * POST - `/paciente` - Adiciona via corpo em formato Json.
 * PUT - `/pacientes/<ID>` - Atualizar Paciente Cadastrado passando o ID.
 * DELETE - `/pacientes/<ID>` - Delete um Paciente cadastrado passando o ID.
+
+  **OBS: Arquivo do insonmina acompanha a aplicação como nome de Medilab_Insominia.json
