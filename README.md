@@ -4,7 +4,8 @@ Para o funcionamento da aplicação, vamos começar iniciando o serviço de banc
       docker-compose up -d 
 ```
 
-Nesta aplicação utilizamos no container a biblioteca do prisma para a criação das Tabelas de dados, [Documentação-Prisma](https://www.prisma.io/docs/getting-started/quickstart).[Repositorio-Fron-end](https://github.com/schandon/medilab_av)
+Nesta aplicação utilizamos no container a biblioteca do prisma para a criação das Tabelas de dados, [Documentação-Prisma](https://www.prisma.io/docs/getting-started/quickstart).
+Pode conferir também o Repositório do Front-end no link a seguir: [Repositorio-Fron-end](https://github.com/schandon/medilab_av) 
 
 
 ## Configuração de Aplicação
