@@ -30,7 +30,7 @@ Para não precisar instalar as bibliotecas na sua maquina, iremos utilizar a vir
 * Passo 3:
   Para baixar tudo que for necessário para rodar a aplicação utilize: 
  ```
-      npm install
+      pip install -r requirements.txt 
 ```
 
 ## Iniciando o Back-end
@@ -39,7 +39,8 @@ Para inicializar utilizaremo o comando:
       npm start
 ```
 
-
+## Populando a Base
+Utilize a Rota POST - `/pacientes` - Adiciona via arquivo ".Json", selecionando o arquivo data.json, que assim você irá popular a banco de dados e estara pronto para fazer a utilização da aplicação.
 
 ## Rotas Criadas
 * GET - `/pacientes` - Busca todos os Pacientes cadastrados.

@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\sp-xa\OneDrive\Área de Trabalho\API Rest - Medilab\env
+set VIRTUAL_ENV=C:\Users\Alexandre\Desktop\api_medilab\env
 
 if not defined PROMPT set PROMPT=$P$G
 
