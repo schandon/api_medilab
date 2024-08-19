@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Pacientes</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<script>
+$(document).ready(function() {
+    $.getJSON('data.json', function(data) {
+        $.ajax({
+            url: 'http://127.0.0.1:5000/pacientes',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(data),
+            success: function(response) {
+                console.log('Pacientes inseridos com sucesso:', response);
+            },
+            error: function(error) {
+                console.error('Erro ao inserir pacientes:', error);
+            }
+        });
+    });
+});
+</script>
+
+</body>
+</html>
